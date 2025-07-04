@@ -1,0 +1,17 @@
+[package]
+name = "lucide-icons"
+description = "Rust definitions for lucide-icons"
+version = "0.525.0"
+edition = "2024"
+license = "MIT AND ISC"
+authors = []
+categories = ["gui"]
+keywords = ["lucide-icons", "lucide", "icon", "iced", "font"]
+readme = "README.md"
+
+[features]
+default = []
+iced = ['dep:iced']
+
+[dependencies]
+iced = { git = "https://github.com/iced-rs/iced.git", optional = true, features = ["advanced"], default-features = false }
