@@ -14,4 +14,4 @@ default = []
 iced = ['dep:iced']
 
 [dependencies]
-iced = { git = "https://github.com/iced-rs/iced.git", optional = true, features = ["advanced"], default-features = false }
+iced = { path = "../iced_fork", optional = true, features = ["advanced"], default-features = false }
