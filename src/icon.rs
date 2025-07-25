@@ -4864,13 +4864,9 @@ impl Icon {
             "align-center-vertical" => Some(Icon::AlignCenterVertical),
             "align-end-horizontal" => Some(Icon::AlignEndHorizontal),
             "align-end-vertical" => Some(Icon::AlignEndVertical),
-            "align-horizontal-distribute-center" => {
-                Some(Icon::AlignHorizontalDistributeCenter)
-            }
+            "align-horizontal-distribute-center" => Some(Icon::AlignHorizontalDistributeCenter),
             "align-horizontal-distribute-end" => Some(Icon::AlignHorizontalDistributeEnd),
-            "align-horizontal-distribute-start" => {
-                Some(Icon::AlignHorizontalDistributeStart)
-            }
+            "align-horizontal-distribute-start" => Some(Icon::AlignHorizontalDistributeStart),
             "align-horizontal-justify-center" => Some(Icon::AlignHorizontalJustifyCenter),
             "align-horizontal-justify-end" => Some(Icon::AlignHorizontalJustifyEnd),
             "align-horizontal-justify-start" => Some(Icon::AlignHorizontalJustifyStart),
@@ -4881,9 +4877,7 @@ impl Icon {
             "align-right" => Some(Icon::AlignRight),
             "align-start-horizontal" => Some(Icon::AlignStartHorizontal),
             "align-start-vertical" => Some(Icon::AlignStartVertical),
-            "align-vertical-distribute-center" => {
-                Some(Icon::AlignVerticalDistributeCenter)
-            }
+            "align-vertical-distribute-center" => Some(Icon::AlignVerticalDistributeCenter),
             "align-vertical-distribute-end" => Some(Icon::AlignVerticalDistributeEnd),
             "align-vertical-distribute-start" => Some(Icon::AlignVerticalDistributeStart),
             "align-vertical-justify-center" => Some(Icon::AlignVerticalJustifyCenter),
